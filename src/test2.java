@@ -139,15 +139,16 @@ static void sort(String k[], int n)
         bf.close();
        
         // storing the data in arraylist to array
-        String[] array
-            = listOfStrings.toArray(new String[0]);
-       
+        String[] array = listOfStrings.toArray(new String[0]);
+       //System.out.println(Arrays.toString(array));
         // printing each line of file
+        System.out.println("UNSORTED MOVIE LIST");
         for (String str : array) {
             System.out.println(str);
         }
         int n = array.length;
 
+        System.out.println("SORTED MOVIE LIST");
         sort(array, n);
     }
 }
