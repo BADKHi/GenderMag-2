@@ -1,3 +1,6 @@
+import java.io.*;
+import java.util.*;
+
 interface MyQueue{
     void addMovie();
     void clearAll();
@@ -11,11 +14,21 @@ interface MyQueue{
 public class MyHeap implements MyQueue {
     public static void main(String[] args) throws Exception {
 
+       
+
+
+    }
+
+    private static void HeapSort(){
+        String[] arr = {};
+
     }
 
     @Override
     public void addMovie() {
         // TODO Auto-generated method stub
+        
+
         
     }
 
